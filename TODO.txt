@@ -1,0 +1,15 @@
+1. Parse data to train a machine learning model for all passes.
+	- need to check if the original data only contains a complete pass.
+	- ideally, you would want to have all attempts, so that you can train a model
+		to pick out a pass given a situtation
+
+If the original data contains all attempts, you want each row to have
+	- start position (x,y)
+	- end position (x,y)
+	- passer (x,y)
+	- receiver / intended receiver 
+		(how would I get this? I could look at the game play, what else?)
+	- success or failure
+	- evaluation of the pass (what are the components that make it a good pass?)
+
+	
